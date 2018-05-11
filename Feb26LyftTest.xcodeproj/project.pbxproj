@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4667100A550176ADD890F1A9 /* Pods_Feb26LyftTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E9F37359D6FC92614F796D /* Pods_Feb26LyftTest.framework */; };
+		DE225C642044D4A8003AD5F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE225C632044D4A8003AD5F9 /* AppDelegate.swift */; };
+		DE225C662044D4A8003AD5F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE225C652044D4A8003AD5F9 /* ViewController.swift */; };
+		DE225C692044D4A8003AD5F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE225C672044D4A8003AD5F9 /* Main.storyboard */; };
+		DE225C6B2044D4A8003AD5F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE225C6A2044D4A8003AD5F9 /* Assets.xcassets */; };
+		DE225C6E2044D4A8003AD5F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE225C6C2044D4A8003AD5F9 /* LaunchScreen.storyboard */; };
+		DE225C7E2044D579003AD5F9 /* LyftSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE225C7B2044D51B003AD5F9 /* LyftSDK.framework */; };
+		DE225C7F2044D579003AD5F9 /* LyftSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DE225C7B2044D51B003AD5F9 /* LyftSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DE225C9B2047B976003AD5F9 /* UberRides.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE225C942047B957003AD5F9 /* UberRides.framework */; };
+		DE225C9C2047B976003AD5F9 /* UberRides.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DE225C942047B957003AD5F9 /* UberRides.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DE225C9F2047B976003AD5F9 /* UberCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE225C982047B957003AD5F9 /* UberCore.framework */; };
+		DE225CA02047B976003AD5F9 /* UberCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DE225C982047B957003AD5F9 /* UberCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DE540D772069E33600B7E60C /* RideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE540D762069E33600B7E60C /* RideCell.swift */; };
+		DE540D7D2069E4F000B7E60C /* RideTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE540D7C2069E4F000B7E60C /* RideTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE225C7A2044D51B003AD5F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE225C752044D51B003AD5F9 /* LyftSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FB7CA7171DD1252800303FEB;
+			remoteInfo = LyftSDK;
+		};
+		DE225C7C2044D51B003AD5F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE225C752044D51B003AD5F9 /* LyftSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FB7CA7201DD1252800303FEB;
+			remoteInfo = LyftSDKTests;
+		};
+		DE225C802044D579003AD5F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE225C752044D51B003AD5F9 /* LyftSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FB7CA7161DD1252800303FEB;
+			remoteInfo = LyftSDK;
+		};
+		DE225C912047B957003AD5F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE225C892047B956003AD5F9 /* UberRides.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCDD153B1D99A7F20053BC8F;
+			remoteInfo = TestAppShim;
+		};
+		DE225C932047B957003AD5F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE225C892047B956003AD5F9 /* UberRides.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AC0404751BFACD1D00AC1501;
+			remoteInfo = UberRides;
+		};
+		DE225C952047B957003AD5F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE225C892047B956003AD5F9 /* UberRides.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AC04047F1BFACD1D00AC1501;
+			remoteInfo = UberRidesTests;
+		};
+		DE225C972047B957003AD5F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE225C892047B956003AD5F9 /* UberRides.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DFFCA8AC1F96A4800032E6BA;
+			remoteInfo = UberCore;
+		};
+		DE225C992047B957003AD5F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE225C892047B956003AD5F9 /* UberRides.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DFFCA8B41F96A4800032E6BA;
+			remoteInfo = UberCoreTests;
+		};
+		DE225C9D2047B976003AD5F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE225C892047B956003AD5F9 /* UberRides.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0404741BFACD1D00AC1501;
+			remoteInfo = UberRides;
+		};
+		DE225CA12047B976003AD5F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE225C892047B956003AD5F9 /* UberRides.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DFFCA8AB1F96A4800032E6BA;
+			remoteInfo = UberCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DE225C822044D579003AD5F9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DE225C9C2047B976003AD5F9 /* UberRides.framework in Embed Frameworks */,
+				DE225C7F2044D579003AD5F9 /* LyftSDK.framework in Embed Frameworks */,
+				DE225CA02047B976003AD5F9 /* UberCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		44BC709540F9C9AE67C4CABD /* Pods-Feb26LyftTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feb26LyftTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-Feb26LyftTest/Pods-Feb26LyftTest.release.xcconfig"; sourceTree = "<group>"; };
+		85CED4AE2E5C344CE79E3964 /* Pods-Feb26LyftTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feb26LyftTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Feb26LyftTest/Pods-Feb26LyftTest.debug.xcconfig"; sourceTree = "<group>"; };
+		B9E9F37359D6FC92614F796D /* Pods_Feb26LyftTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Feb26LyftTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE225C602044D4A8003AD5F9 /* Feb26LyftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feb26LyftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE225C632044D4A8003AD5F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE225C652044D4A8003AD5F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE225C682044D4A8003AD5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE225C6A2044D4A8003AD5F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE225C6D2044D4A8003AD5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE225C6F2044D4A8003AD5F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE225C752044D51B003AD5F9 /* LyftSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LyftSDK.xcodeproj; path = "../../../Downloads/Lyft-iOS-sdk-1.0.6/LyftSDK.xcodeproj"; sourceTree = "<group>"; };
+		DE225C892047B956003AD5F9 /* UberRides.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UberRides.xcodeproj; path = "../../../Downloads/rides-ios-sdk-0.9.0/source/UberRides.xcodeproj"; sourceTree = "<group>"; };
+		DE540D762069E33600B7E60C /* RideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideCell.swift; sourceTree = "<group>"; };
+		DE540D7C2069E4F000B7E60C /* RideTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE225C5D2044D4A8003AD5F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE225C9B2047B976003AD5F9 /* UberRides.framework in Frameworks */,
+				DE225C7E2044D579003AD5F9 /* LyftSDK.framework in Frameworks */,
+				DE225C9F2047B976003AD5F9 /* UberCore.framework in Frameworks */,
+				4667100A550176ADD890F1A9 /* Pods_Feb26LyftTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A0C32FA174A1B3F460948D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9E9F37359D6FC92614F796D /* Pods_Feb26LyftTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60C3EE36D30063055D18239C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85CED4AE2E5C344CE79E3964 /* Pods-Feb26LyftTest.debug.xcconfig */,
+				44BC709540F9C9AE67C4CABD /* Pods-Feb26LyftTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE225C572044D4A8003AD5F9 = {
+			isa = PBXGroup;
+			children = (
+				DE225C622044D4A8003AD5F9 /* Feb26LyftTest */,
+				DE225C612044D4A8003AD5F9 /* Products */,
+				60C3EE36D30063055D18239C /* Pods */,
+				5A0C32FA174A1B3F460948D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE225C612044D4A8003AD5F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE225C602044D4A8003AD5F9 /* Feb26LyftTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE225C622044D4A8003AD5F9 /* Feb26LyftTest */ = {
+			isa = PBXGroup;
+			children = (
+				DE225C632044D4A8003AD5F9 /* AppDelegate.swift */,
+				DE225C652044D4A8003AD5F9 /* ViewController.swift */,
+				DE225C672044D4A8003AD5F9 /* Main.storyboard */,
+				DE540D762069E33600B7E60C /* RideCell.swift */,
+				DE540D7C2069E4F000B7E60C /* RideTableViewController.swift */,
+				DE225C6A2044D4A8003AD5F9 /* Assets.xcassets */,
+				DE225C6C2044D4A8003AD5F9 /* LaunchScreen.storyboard */,
+				DE225C6F2044D4A8003AD5F9 /* Info.plist */,
+				DE225C892047B956003AD5F9 /* UberRides.xcodeproj */,
+				DE225C752044D51B003AD5F9 /* LyftSDK.xcodeproj */,
+			);
+			path = Feb26LyftTest;
+			sourceTree = "<group>";
+		};
+		DE225C762044D51B003AD5F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE225C7B2044D51B003AD5F9 /* LyftSDK.framework */,
+				DE225C7D2044D51B003AD5F9 /* LyftSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE225C8A2047B956003AD5F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE225C922047B957003AD5F9 /* TestAppShim.app */,
+				DE225C942047B957003AD5F9 /* UberRides.framework */,
+				DE225C962047B957003AD5F9 /* UberRidesTests.xctest */,
+				DE225C982047B957003AD5F9 /* UberCore.framework */,
+				DE225C9A2047B957003AD5F9 /* UberCoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE225C5F2044D4A8003AD5F9 /* Feb26LyftTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE225C722044D4A8003AD5F9 /* Build configuration list for PBXNativeTarget "Feb26LyftTest" */;
+			buildPhases = (
+				F0B658C9C08665170F78AF64 /* [CP] Check Pods Manifest.lock */,
+				DE225C5C2044D4A8003AD5F9 /* Sources */,
+				DE225C5D2044D4A8003AD5F9 /* Frameworks */,
+				DE225C5E2044D4A8003AD5F9 /* Resources */,
+				DE225C822044D579003AD5F9 /* Embed Frameworks */,
+				0972EED1223AFB5E7CEE8DF5 /* [CP] Embed Pods Frameworks */,
+				CCF747397300FB00F6448C6C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE225C812044D579003AD5F9 /* PBXTargetDependency */,
+				DE225C9E2047B976003AD5F9 /* PBXTargetDependency */,
+				DE225CA22047B976003AD5F9 /* PBXTargetDependency */,
+			);
+			name = Feb26LyftTest;
+			productName = Feb26LyftTest;
+			productReference = DE225C602044D4A8003AD5F9 /* Feb26LyftTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE225C582044D4A8003AD5F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Jack Carter";
+				TargetAttributes = {
+					DE225C5F2044D4A8003AD5F9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DE225C5B2044D4A8003AD5F9 /* Build configuration list for PBXProject "Feb26LyftTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE225C572044D4A8003AD5F9;
+			productRefGroup = DE225C612044D4A8003AD5F9 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DE225C762044D51B003AD5F9 /* Products */;
+					ProjectRef = DE225C752044D51B003AD5F9 /* LyftSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = DE225C8A2047B956003AD5F9 /* Products */;
+					ProjectRef = DE225C892047B956003AD5F9 /* UberRides.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				DE225C5F2044D4A8003AD5F9 /* Feb26LyftTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DE225C7B2044D51B003AD5F9 /* LyftSDK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = LyftSDK.framework;
+			remoteRef = DE225C7A2044D51B003AD5F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DE225C7D2044D51B003AD5F9 /* LyftSDKTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LyftSDKTests.xctest;
+			remoteRef = DE225C7C2044D51B003AD5F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DE225C922047B957003AD5F9 /* TestAppShim.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TestAppShim.app;
+			remoteRef = DE225C912047B957003AD5F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DE225C942047B957003AD5F9 /* UberRides.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UberRides.framework;
+			remoteRef = DE225C932047B957003AD5F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DE225C962047B957003AD5F9 /* UberRidesTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UberRidesTests.xctest;
+			remoteRef = DE225C952047B957003AD5F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DE225C982047B957003AD5F9 /* UberCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UberCore.framework;
+			remoteRef = DE225C972047B957003AD5F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DE225C9A2047B957003AD5F9 /* UberCoreTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UberCoreTests.xctest;
+			remoteRef = DE225C992047B957003AD5F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE225C5E2044D4A8003AD5F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE225C6E2044D4A8003AD5F9 /* LaunchScreen.storyboard in Resources */,
+				DE225C6B2044D4A8003AD5F9 /* Assets.xcassets in Resources */,
+				DE225C692044D4A8003AD5F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0972EED1223AFB5E7CEE8DF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Feb26LyftTest/Pods-Feb26LyftTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCF747397300FB00F6448C6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Feb26LyftTest/Pods-Feb26LyftTest-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Feb26LyftTest/Pods-Feb26LyftTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0B658C9C08665170F78AF64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Feb26LyftTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE225C5C2044D4A8003AD5F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE225C662044D4A8003AD5F9 /* ViewController.swift in Sources */,
+				DE540D772069E33600B7E60C /* RideCell.swift in Sources */,
+				DE225C642044D4A8003AD5F9 /* AppDelegate.swift in Sources */,
+				DE540D7D2069E4F000B7E60C /* RideTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE225C812044D579003AD5F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LyftSDK;
+			targetProxy = DE225C802044D579003AD5F9 /* PBXContainerItemProxy */;
+		};
+		DE225C9E2047B976003AD5F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UberRides;
+			targetProxy = DE225C9D2047B976003AD5F9 /* PBXContainerItemProxy */;
+		};
+		DE225CA22047B976003AD5F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UberCore;
+			targetProxy = DE225CA12047B976003AD5F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE225C672044D4A8003AD5F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE225C682044D4A8003AD5F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE225C6C2044D4A8003AD5F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE225C6D2044D4A8003AD5F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE225C702044D4A8003AD5F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE225C712044D4A8003AD5F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE225C732044D4A8003AD5F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85CED4AE2E5C344CE79E3964 /* Pods-Feb26LyftTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Feb26LyftTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JackCarter.Feb26LyftTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE225C742044D4A8003AD5F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44BC709540F9C9AE67C4CABD /* Pods-Feb26LyftTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Feb26LyftTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JackCarter.Feb26LyftTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE225C5B2044D4A8003AD5F9 /* Build configuration list for PBXProject "Feb26LyftTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE225C702044D4A8003AD5F9 /* Debug */,
+				DE225C712044D4A8003AD5F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE225C722044D4A8003AD5F9 /* Build configuration list for PBXNativeTarget "Feb26LyftTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE225C732044D4A8003AD5F9 /* Debug */,
+				DE225C742044D4A8003AD5F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE225C582044D4A8003AD5F9 /* Project object */;
+}

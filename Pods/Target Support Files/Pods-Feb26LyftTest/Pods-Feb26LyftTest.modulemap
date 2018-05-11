@@ -1,0 +1,6 @@
+framework module Pods_Feb26LyftTest {
+  umbrella header "Pods-Feb26LyftTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
