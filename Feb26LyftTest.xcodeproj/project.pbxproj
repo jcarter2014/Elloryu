@@ -21,6 +21,9 @@
 		DE225CA02047B976003AD5F9 /* UberCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DE225C982047B957003AD5F9 /* UberCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DE540D772069E33600B7E60C /* RideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE540D762069E33600B7E60C /* RideCell.swift */; };
 		DE540D7D2069E4F000B7E60C /* RideTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE540D7C2069E4F000B7E60C /* RideTableViewController.swift */; };
+		DE64F06521069CBB00F6907A /* Elloryu Screenshot 3.png in Resources */ = {isa = PBXBuildFile; fileRef = DE64F05E21069CBA00F6907A /* Elloryu Screenshot 3.png */; };
+		DE64F06621069CBB00F6907A /* Elloryu Screenshot 2.png in Resources */ = {isa = PBXBuildFile; fileRef = DE64F06321069CBA00F6907A /* Elloryu Screenshot 2.png */; };
+		DE64F06721069CBB00F6907A /* Elloryu Screenshot 1.png in Resources */ = {isa = PBXBuildFile; fileRef = DE64F06421069CBA00F6907A /* Elloryu Screenshot 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +130,9 @@
 		DE225C892047B956003AD5F9 /* UberRides.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UberRides.xcodeproj; path = "../../../Downloads/rides-ios-sdk-0.9.0/source/UberRides.xcodeproj"; sourceTree = "<group>"; };
 		DE540D762069E33600B7E60C /* RideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideCell.swift; sourceTree = "<group>"; };
 		DE540D7C2069E4F000B7E60C /* RideTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideTableViewController.swift; sourceTree = "<group>"; };
+		DE64F05E21069CBA00F6907A /* Elloryu Screenshot 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elloryu Screenshot 3.png"; sourceTree = "<group>"; };
+		DE64F06321069CBA00F6907A /* Elloryu Screenshot 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elloryu Screenshot 2.png"; sourceTree = "<group>"; };
+		DE64F06421069CBA00F6907A /* Elloryu Screenshot 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elloryu Screenshot 1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +196,9 @@
 				DE225C6A2044D4A8003AD5F9 /* Assets.xcassets */,
 				DE225C6C2044D4A8003AD5F9 /* LaunchScreen.storyboard */,
 				DE225C6F2044D4A8003AD5F9 /* Info.plist */,
+				DE64F06421069CBA00F6907A /* Elloryu Screenshot 1.png */,
+				DE64F06321069CBA00F6907A /* Elloryu Screenshot 2.png */,
+				DE64F05E21069CBA00F6907A /* Elloryu Screenshot 3.png */,
 				DE225C892047B956003AD5F9 /* UberRides.xcodeproj */,
 				DE225C752044D51B003AD5F9 /* LyftSDK.xcodeproj */,
 			);
@@ -345,8 +354,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE64F06521069CBB00F6907A /* Elloryu Screenshot 3.png in Resources */,
 				DE225C6E2044D4A8003AD5F9 /* LaunchScreen.storyboard in Resources */,
+				DE64F06621069CBB00F6907A /* Elloryu Screenshot 2.png in Resources */,
 				DE225C6B2044D4A8003AD5F9 /* Assets.xcassets in Resources */,
+				DE64F06721069CBB00F6907A /* Elloryu Screenshot 1.png in Resources */,
 				DE225C692044D4A8003AD5F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
